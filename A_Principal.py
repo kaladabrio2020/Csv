@@ -73,10 +73,12 @@ def timep(a):
         return 1.5
     if a <8:
         return 1
-    elif a >10 and a< 15:
+    elif a > 10 and a < 15:
         return 0.6
-    elif a >15:
+    elif a > 15 and a < 25 :
         return 0.12
+    else:
+        return 0.05
 
         
 def coloque(i):
