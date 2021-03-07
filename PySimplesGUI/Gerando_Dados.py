@@ -128,7 +128,7 @@ def janela2(event2,valor2):
                     sl.geral_h_parte(dados)
 
     sys.exit()
-file = open('Abrir.txt','r')
+file = open('X_Abrir.txt','r')
 lista =  file.readlines()
 file.close()
 

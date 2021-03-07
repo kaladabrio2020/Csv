@@ -80,7 +80,7 @@ def timep(a):
 
         
 def coloque(i):
-    file = open('Abrir.txt','w')
+    file = open('A_Abrir.txt','w')
     for e in range(len(i)):
         file.write(str(i[e])+'\n')
     file.close()
