@@ -1,0 +1,3 @@
+Ok
+{'Numero': 1}
+<PySimpleGUI.PySimpleGUI.Window object at 0x0000018F31660880>

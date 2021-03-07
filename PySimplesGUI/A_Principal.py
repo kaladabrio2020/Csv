@@ -59,7 +59,7 @@ def main():
                     for i in range(int(a)): 
                         time.sleep(j)
                         sg.OneLineProgressMeter('My Meter', i+1, int(a), 'key','Carregando')
-                        subprocess.call('Gerador_Csv.py',shell=True)
+                        subprocess.call('Gerando_Dados.py',shell=True)
                     sg.popup('','Pronto!')
                     return main()
 
