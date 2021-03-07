@@ -1,7 +1,7 @@
 import Gerador_Txt as ge
-import Dados     as ran
+import Gerador_Dados_Lista    as ran
 import PySimples as pg
-import Salvando  as sl
+import Salvando_Csv  as sl
 import PySimpleGUI as sg
 import random
 from   random import randint
